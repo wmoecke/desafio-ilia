@@ -2,7 +2,7 @@
 #### Sobre esta solução:
 - Esta solução foi desenvolvida por **Werner Moecke** para o desafio Ília.
 - A solução é composta de 2 projetos:
-    - **ControlePontoAPI:** Este é o projeto principal, contendo as Controllers, objetos e demais itens desenvolvidos.
+    - **ControlePontoAPI:** Este é o projeto principal, contendo as Controllers, Classes de objetos e demais itens desenvolvidos.
     - **ControlePontoAPI.UnitTests:** Contém todos os testes unitários para o projeto principal.
 
 #### Detalhes de implementação:
