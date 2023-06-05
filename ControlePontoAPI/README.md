@@ -1,16 +1,15 @@
 ## Controle de Ponto API
-#### Sobre esta soluÁ„o:
-- Esta soluÁ„o foi desenvolvida por **Werner Moecke** para o desafio Õlia.
-- A soluÁ„o È composta de 2 projetos:
-    - **ControlePontoAPI:** Este È o projeto principal, contendo as Controllers, Classes de objetos e demais itens desenvolvidos.
-    - **ControlePontoAPI.UnitTests:** ContÈm todos os testes unit·rios para o projeto principal.
+#### Sobre esta solu√ß√£o:
+- Esta solu√ß√£o foi desenvolvida por **Werner Moecke** para o desafio √çlia.
+- A solu√ß√£o √© composta de 2 projetos:
+    - **ControlePontoAPI:** Este √© o projeto principal, contendo as Controllers, Classes de objetos e demais itens desenvolvidos.
+    - **ControlePontoAPI.UnitTests:** Cont√©m todos os testes unit√°rios para o projeto principal.
 
-#### Detalhes de implementaÁ„o:
-- Esta soluÁ„o foi desenvolvida com o *target framework* **_.NET 6.0_**.
-- TambÈm foi optado por incluir a geraÁ„o da documentaÁ„o *OpenAPI v3.0* atravÈs do componente **_Swagger_**.
-    - Uma vez que o projeto for executado no Visual Studio em modo **_Debug_**, a documentaÁ„o poder· ser visualizada no browser:
-        - *https://localhost:7000/swagger*, para conex„o segura
-        - *http://localhost:5000/swagger*, para conex„o insegura
-- Os 2 mÈtodos expostos pela API poder„o ser chamados pelo prÛprio *Swagger* (atravÈs de sua p·gina aberta no navegador), ou tambÈm pelos seguintes endpoints:
-    - *http[s]://localhost:[5000|7000]/v1/batidas*, passando no corpo da requisiÁ„o, um objeto v·lido do tipo **_Momento_** (vide detalhes na documentaÁ„o);
-    - *http[s]://localhost:[5000|7000]/v1/folhas-de-ponto*, passando na *query* o valor do mÍs e ano no formato **_"yyyy-MM"_** (vide detalhes na documentaÁ„o).
+#### Detalhes de implementa√ß√£o:
+- Esta solu√ß√£o foi desenvolvida com o *target framework* **_.NET 6.0_**.
+- Tamb√©m foi optado por incluir a gera√ß√£o da documenta√ß√£o *OpenAPI v3.0* atrav√©s do componente **_Swagger_**. Uma vez que o projeto for executado no Visual Studio em modo **_Debug_**, a documenta√ß√£o poder√° ser visualizada no browser:
+        - *https://localhost:7000/swagger*, para conex√£o segura
+        - *http://localhost:5000/swagger*, para conex√£o insegura
+- Os 2 m√©todos expostos pela API poder√£o ser chamados pelo pr√≥prio *Swagger* (atrav√©s de sua p√°gina aberta no navegador), ou tamb√©m pelos seguintes endpoints:
+    - *http[s]://localhost:[5000|7000]/v1/batidas*, passando no corpo da requisi√ß√£o, um objeto v√°lido do tipo **_Momento_** (vide detalhes na documenta√ß√£o);
+    - *http[s]://localhost:[5000|7000]/v1/folhas-de-ponto*, passando na *query* o valor do m√™s e ano no formato **_"yyyy-MM"_** (vide detalhes na documenta√ß√£o).
